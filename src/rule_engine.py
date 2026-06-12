@@ -318,7 +318,6 @@ class RuleEngine:
     def test_rule(self, rule_id: str, inspection: dict) -> dict:
         """
         Testa uma regra específica contra uma inspeção (sem persistência).
-        Útil para verificar antes de guardar.
         """
         rule = self.get_rule(rule_id)
         if not rule:
@@ -334,7 +333,7 @@ class RuleEngine:
 
 
 
-# Execução directa
+# Execução direta
 
 if __name__ == "__main__":
     import sys
@@ -356,7 +355,7 @@ if __name__ == "__main__":
     print(json.dumps(rule, ensure_ascii=False, indent=2))
 
     if not rule["validation"]["is_valid"]:
-        print("\nRegra ambígua. Ambiguidades detectadas:")
+        print("\nRegra ambígua. Ambiguidades detetadas:")
         for amb in rule["validation"]["ambiguities"]:
             print(f"  • {amb}")
     else:
