@@ -1,0 +1,12 @@
+# Pastas de ambiente e logs
+.venv/
+__pycache__/
+.DS_Store
+
+# Pastas de dados pesados (NÃO FAZER PUSH DISTO)
+data/images/
+cache/
+data/inspections/
+
+# Ficheiro de ambiente (segurança da API KEY)
+.env

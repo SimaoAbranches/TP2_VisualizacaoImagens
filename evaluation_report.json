@@ -1,0 +1,47 @@
+{
+  "evaluation_date": "2026-06-11T19:15:57.412644",
+  "images_dir": "data/images",
+  "n_test_images": 0,
+  "visual_analysis": {
+    "zero_shot": {
+      "issue_detection_rate": 0.0,
+      "false_positive_rate": 0.0,
+      "severity_accuracy": 0.0,
+      "n_images_evaluated": 0
+    },
+    "chain_of_thought": {
+      "issue_detection_rate": 0.0,
+      "false_positive_rate": 0.0,
+      "severity_accuracy": 0.0,
+      "n_images_evaluated": 0
+    },
+    "few_shot": {
+      "issue_detection_rate": 0.0,
+      "false_positive_rate": 0.0,
+      "severity_accuracy": 0.0,
+      "n_images_evaluated": 0
+    }
+  },
+  "rag_evaluation": {
+    "recall_at_3": null,
+    "total_indexed": 0,
+    "note": "Preenche os relevant_inspection_id no harness com IDs reais para Recall@3 válido."
+  },
+  "rule_engine_evaluation": {
+    "rule_parse_rate": 0.8,
+    "ambiguity_detection_rate": 0.0,
+    "n_rules_tested": 5
+  },
+  "llm_judge": {
+    "rag_answer_relevance": {
+      "score": -1,
+      "justification": "Sem dados no RAG para avaliar."
+    }
+  },
+  "summary": {
+    "best_visual_strategy": "zero_shot",
+    "recall_at_3": null,
+    "rule_parse_rate": 0.8,
+    "ambiguity_detection_rate": 0.0
+  }
+}

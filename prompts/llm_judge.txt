@@ -1,0 +1,25 @@
+You are an expert evaluator of retail shelf inspection AI systems. Your task is to evaluate the quality of an AI-generated output.
+
+Evaluation criterion: {CRITERION}
+
+AI Output to evaluate:
+{OUTPUT}
+
+Reference / Ground Truth (if available):
+{REFERENCE}
+
+Score the output from 1 to 5 where:
+1 = Completely wrong or irrelevant
+2 = Partially correct but major issues
+3 = Acceptable with notable gaps
+4 = Good with minor issues
+5 = Excellent, fully correct and well-reasoned
+
+Return ONLY valid JSON:
+{
+  "score": 0,
+  "justification": "brief explanation of the score",
+  "strengths": ["list of what was done well"],
+  "weaknesses": ["list of problems found"],
+  "agrees_with_human": null
+}
