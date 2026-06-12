@@ -162,9 +162,7 @@ class RetailVisionSystem:
                     )
                 )
 
-    # ------------------------------------------------------------------
     # Comandos de regras
-    # ------------------------------------------------------------------
 
     def cmd_add_rule(self, rule_text: str) -> None:
         """Converte e guarda uma regra em linguagem natural."""
